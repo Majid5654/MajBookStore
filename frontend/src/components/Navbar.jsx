@@ -11,7 +11,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center text-white font-bold text-lg shadow-md">
-            M
+            <img src="../book.svg" alt="Book Icon" className="w-6 h-6" />
           </div>
 
           <span className="font-semibold font-sans tracking-widest text-2xl text-white">
