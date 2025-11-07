@@ -74,7 +74,7 @@ function HomePage() {
                 </h3>
                 <p className="text-gray-300">Author: {product.author}</p>
                 <p className="text-sky-400 font-bold mt-2">
-                  Rp {product.price}
+                  Rp {parseInt(product.price, 10).toLocaleString("id-ID")}
                 </p>
                 <p className="text-gray-400 text-sm mt-1">
                   Updated: {new Date(product.created_at).toLocaleDateString()}
