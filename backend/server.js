@@ -38,7 +38,7 @@ app.use(
 app.use(morgan("dev")); //for log requests
 
 //this is arcjet
-
+/*
 if (process.env.NODE_ENV === "production") {
   app.use(async (req, res, next) => {
     try {
@@ -77,6 +77,7 @@ if (process.env.NODE_ENV === "production") {
     } catch (error) {}
   });
 }
+*/
 
 app.use("/api/products", productRoutes);
 
