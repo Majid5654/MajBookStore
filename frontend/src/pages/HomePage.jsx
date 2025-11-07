@@ -23,7 +23,7 @@ function HomePage() {
         className="flex items-center gap-6 mb-8"
       >
         <div className="w-full flex flex-col items-center justify-center text-center my-5">
-          <h1 className="text-4xl md:text-6xl font-extrabold text-indigo-400 mb-4">
+          <h1 className="text-4xl md:text-6xl font-extrabold font-montserrat text-white mb-4">
             Welcome!
           </h1>
           <p className="text-gray-300 text-lg md:text-xl max-w-xl">
